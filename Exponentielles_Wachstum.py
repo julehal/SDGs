@@ -4,7 +4,7 @@ import numpy as np
 # Parameter für exponentielles Wachstum
 initial_value = 1000  # Anfangswert des BIP
 growth_rate = 0.15    # Höhere Wachstumsrate für stärkere Krümmung
-time_periods = np.arange(0, 21, 1)  # Zeit von 0 bis 20 Jahren
+time_periods = np.arange(0, 21, 1)  # Zeitverlauf
 
 # Berechnung des exponentiellen Wachstums
 bip_values = initial_value * np.exp(growth_rate * time_periods)
